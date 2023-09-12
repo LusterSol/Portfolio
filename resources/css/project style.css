@@ -73,6 +73,11 @@ div.prjt1 {
     padding-bottom: 1rem;
 }
 
+h2.title1:hover, h2.title2:hover, h2.title3:hover {
+    color: darkslategray;
+    cursor: pointer;
+}
+
 /* ---- Mobile ---- */
 
 @media only screen and (max-width: 720px) {

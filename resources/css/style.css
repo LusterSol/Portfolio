@@ -87,4 +87,13 @@ img {
     img.pfp {
         display: none;
     }
+
+    div.content {
+        width: 100%;
+    }
+
+    ul.projects {
+        display: flex;
+        flex-direction: column;
+    }
 }    

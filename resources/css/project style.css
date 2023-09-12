@@ -72,3 +72,30 @@ div.prjt1 {
     width: 100%;
     padding-bottom: 1rem;
 }
+
+/* ---- Mobile ---- */
+
+@media only screen and (max-width: 720px) {
+
+    body {
+        margin: 0 10%;
+    }
+
+    header h1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    header {
+        display: contents;
+    }
+
+    ul {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+}
